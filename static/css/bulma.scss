@@ -1,5 +1,6 @@
 @charset "utf-8";
 @use "bulma/sass/utilities";
+// removed colours from derived-variables except 'text', 'link'
 @use "bulma/sass/themes";
 @use "bulma/sass/base/minireset";
 @use "bulma/sass/base/generic";
