@@ -1,0 +1,1 @@
+sass bulma/bulma.scss bulma.min.css -s compressed
