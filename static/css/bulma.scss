@@ -1,5 +1,5 @@
 @charset "utf-8";
-@use "bulma/sass/utilities";
+@use "bulma/sass/utilities" with ($aspect-ratios: ());
 // removed colours from derived-variables except 'text', 'link'
 @use "bulma/sass/themes";
 @use "bulma/sass/base/minireset";
@@ -12,5 +12,20 @@
 @use "bulma/sass/layout/media";
 @use "bulma/sass/layout/container";
 @use "bulma/sass/layout/section";
-@use "bulma/sass/helpers/spacing";
+@use "bulma/sass/helpers/spacing" with (
+    $spacing-shortcuts: (
+        // "margin": "m",
+        "padding": "p",
+    ),
+    $spacing-directions: (
+        // "top": "t",
+        // "right": "r",
+        "bottom": "b",
+        // "left": "l",
+    ),
+    $spacing-values: (
+        "0": 0,
+        // "auto": auto,
+    )
+);
 
