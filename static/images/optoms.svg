@@ -1,0 +1,27 @@
+<svg id="SVGRoot" width="255px" height="255px" version="1.1" viewBox="0 0 255 255" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="filter1235-6-7" x="-.036" y="-.036" width="1.072" height="1.072" style="color-interpolation-filters:sRGB">
+            <feGaussianBlur stdDeviation="0.25932647"/>
+        </filter>
+        <filter id="filter1275-3-9" x="-.12" y="-.12" width="1.24" height="1.24" style="color-interpolation-filters:sRGB">
+            <feGaussianBlur stdDeviation="0.61051531"/>
+        </filter>
+        <linearGradient id="linearGradient1432" x1="142.94" x2="142.94" y1="98.776" y2="108.28" gradientTransform="matrix(4.0114 0 0 6.5766 -445.34 -604.7)" gradientUnits="userSpaceOnUse">
+            <stop offset="0"/>
+            <stop style="stop-opacity:0" offset="1"/>
+        </linearGradient>
+    </defs>
+    <circle cx="127.5" cy="127.5" r="119.45" style="fill:#fff"/>
+    <g id="Iris">
+        <circle cx="127.5" cy="127.5" r="77.989" style="fill:#59baff"/>
+        <circle transform="matrix(2.7377 0 0 2.7377 14.14 -15.804)" cx="41.406" cy="52.344" r="8.6442" style="fill-opacity:.66667;filter:url(#filter1235-6-7)"/>
+        <circle transform="matrix(2.627 0 0 2.627 -256.29 -62.343)" cx="156.3" cy="59.203" r="6.1052" style="fill-opacity:.42126;fill:#fff;filter:url(#filter1275-3-9)"/>
+    </g>
+    <g style="display:none">
+        <path d="m0 0v255h255v-255zm127.5 48.225a113.58 79.274 0 0 1 113.58 79.275 113.58 79.274 0 0 1-113.58 79.275 113.58 79.274 0 0 1-113.58-79.275 113.58 79.274 0 0 1 113.58-79.275z" style="fill:#fff"/>
+    </g>
+    <g>
+        <circle cx="127.5" cy="127.5" r="119.45" style="fill:none;stroke-width:16.095;stroke:#000"/>
+        <ellipse cx="127.5" cy="127.5" rx="113.58" ry="79.274" style="fill:url(#linearGradient1432);stroke-width:8.0473;stroke:#000"/>
+    </g>
+</svg>
